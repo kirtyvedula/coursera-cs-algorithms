@@ -2,12 +2,25 @@
 *.slo
 *.lo
 *.o
+*.obj
 
 # Compiled Dynamic libraries
 *.so
 *.dylib
+*.dll
+
 
 # Compiled Static libraries
 *.lai
 *.la
 *.a
+
+# VS garbage
+*.ink
+*.user
+*.tlog
+*.log
+*lastbuildstate
+*.pdb
+Debug
+Release
